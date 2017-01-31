@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Praveen
+  host: Praveen
+  disk_quota: 1024M
+  services:
+  - Praveen-cloudantNoSQLDB
